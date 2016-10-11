@@ -1,5 +1,17 @@
 @charset "utf-8";
 @import "normalize";
+/*base*/
+@import 
+  "base/base";
+/*components*/
+@import
+  "components/buttons";
+/*layout*/
+@import
+  "layout/main_nav";
+/*utils*/
+@import
+  "utils/colors";
 
 body {
   background: #ECC561;
