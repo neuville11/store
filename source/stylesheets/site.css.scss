@@ -42,6 +42,10 @@ h1 {
   }
 }
 
+ul, li {
+  text-decoration: none !important;
+}
+
 .welcome {
   -webkit-animation-name: welcome;
   -webkit-animation-duration: .9s;
