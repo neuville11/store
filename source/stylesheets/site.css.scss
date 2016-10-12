@@ -1,22 +1,29 @@
 @charset "utf-8";
 @import "normalize";
+/*utils*/
+@import
+  "utils/colors",
+  "utils/variables";
 /*base*/
 @import 
-  "base/base";
+  "base/base",
+  "base/forms",
+  "base/containers",
+  "base/headers";
 /*components*/
 @import
-  "components/buttons";
+  "components/buttons",
+  "components/logos";
 /*layout*/
 @import
   "layout/main_nav";
-/*utils*/
-@import
-  "utils/colors";
+
 
 body {
-  background: #ECC561;
+  background: #ecc561;
   text-align: center;
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /*font-family: 'Oswald', sans-serif;*/
+  font-family: 'Asap', sans-serif;
   font-size: 1em;
 }
 

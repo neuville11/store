@@ -1,3 +1,33 @@
 .navbar {
   background-color: black;
+  height: 35px;
+  padding: 5px;
+  width: 100%;
+
+  a {
+    color: white;
+  }
+}
+
+.navbar__links {
+  float: left;
+  margin: 8px;
+
+  a {
+    padding: 5px;
+    text-decoration: none;
+  }
+
+  @media screen and (max-width: $navbarBreakpoint){
+    display: none;
+  }
+}
+
+.navbar__search-bar {
+  float: right;
+  margin-right: 10px;
+
+  @media screen and (max-width: $navbarBreakpoint){
+    width: 100%;
+  }
 }
