@@ -1,10 +1,33 @@
-<nav class="navbar">
-  <%= link_to "/phones",'#' %>
-  <%= link_to "/tablets", '#' %>
-  <%= link_to "/computing", '#' %>
-  <%= link_to "/watches", '#' %>
-  <%= link_to "/photo-video", '#' %>
-  <%= link_to "/audio", '#' %>
-  <%= link_to "/gadgets", '#' %>
-  <%= link_to "/gaming", '#' %>
-</nav>
+<div class="header-container">
+  <div class="header">
+    <div class="logo-voltio"></div>
+    <div class="header-login">
+      <li><%= link_to "/login","middleman.html" %></li>
+      <li><%= link_to "/register", "#" %></li>
+      <li>(3)</li>
+      <li><div class="shopping-bag-icon"></div></li>
+    </div>
+  </div>
+  <nav class="navbar">
+    <div class="navbar__links">
+      <%= link_to "/phones","#" %>
+      <%= link_to "/tablets", "#" %>
+      <%= link_to "/computing", "#" %>
+      <%= link_to "/watches", "#" %>
+      <%= link_to "/photo & video", "#" %>
+      <%= link_to "/audio", "#" %>
+      <%= link_to "/gadgets", "#" %>
+      <%= link_to "/gaming", "#" %>
+    </div>
+    <div class="navbar__search-bar">
+      <form>
+        <div class="btn-search-container">
+          <input type="submit" class="btn-search" value="">
+        </div>
+        <div class="textbox-search-container">
+          <input type="text" placeholder="_search" class="input-search" >
+        </div>
+      </form>
+    </div>
+  </nav>
+</div>
