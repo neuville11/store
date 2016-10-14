@@ -1,6 +1,9 @@
 {
   "name": "voltio",
   "description": "",
+  "scripts": {
+    "postdeploy": "ps:scale web=1"
+  },
   "formation": {
     "web": {
       "quantity": 1
