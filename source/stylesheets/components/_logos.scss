@@ -6,6 +6,14 @@
   height: 32px;
   padding: 10px;
   width: 150px;
+
+  @media screen and(max-width: $navbarBreakpoint){
+    background: image_url('HOME_sprite.png')  no-repeat -205px -417px;
+    float: none;
+    margin-left: 40px;
+    margin-top: 7px;
+    width: 110px;
+  }
 }
 
 .shopping-bag-icon {
