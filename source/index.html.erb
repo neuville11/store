@@ -1,9 +1,10 @@
 ---
 title: Welcome to Middleman
 elements:
-  - one
-  - two
-  - three
+  - btn-normal
+  - btn-secondary
+  - btn-hover
+  - btn-red-border
 ---
 
 <div class="welcome">
@@ -14,9 +15,7 @@ elements:
   <p class="doc">
     <%= link_to "Read Documentation Online", "https://middlemanapp.com", target: "_blank" %>
   </p><!-- .doc -->
-  <ul>
     <% current_page.data.elements.each do |f| %>
-    <li><%= f %></li>
+    <button class='<%= f %> btn-medium' ><%= f %></button>
     <% end %>
-  </ul>
 </div><!-- .welcome -->

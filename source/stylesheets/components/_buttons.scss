@@ -1,9 +1,85 @@
 .btn-normal {
-  width: 440px;
-  height: 55px;
-  background-color: #ffffff;
-  border: solid 0.5px #b4b4b4;
+  background-color: white;
+  border: solid 0.5px $nobel;
+  color: $redOrange;
+
+  &.big {
+    @media screen and(max-width: $tablet){
+      height: 40px;
+      width: 195px;
+    }
+  }
+
+  &:hover {
+    @extend .btn-hover;
+  }
 }
+
+.btn-secondary {
+  background-color: $redOrange;
+  border: none;
+  color: white;
+
+  &:hover {
+    @extend .btn-hover;
+  }
+}
+
+.btn-hover {
+  background-color: $nobel;
+  border: solid 2px white;
+  color: white;
+}
+
+.btn-red-border {
+  background-color: white;
+  border: solid 1.5px $redOrange;
+  color: $redOrange;
+
+  &:hover {
+    @extend .btn-hover;
+  }
+}
+
+.btn-big {
+  @media screen and(min-width: $desktop){
+    height: 55px;
+    width: 440px;
+  }
+
+  @media screen and(max-width: $desktop){
+    height: 45px;
+    width: 310px;
+  }
+
+  @media screen and(max-width: $tablet){
+    height: 40px;
+    width: 195px;
+  }
+
+  @media screen and(max-width: $mobile){
+    height: 40px;
+    width: 250px;
+  }
+}
+
+.btn-medium {
+  @media screen and(min-width: $desktop){
+    height: 55px;
+    width: 325px;
+  }
+
+  @media screen and(max-width: $desktop){
+    height: 45px;
+    width: 225px;
+  }
+
+  @media screen and(max-width: $tablet){
+    height: 40px;
+    width: 145px;
+  }
+}
+
 
 .btn-search {
   background: image_url('HOME_sprite.png')  no-repeat -198px -245px;
