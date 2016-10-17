@@ -16,8 +16,8 @@
   margin-top: 25px;
   width: 220px;
 
-  @media screen and (max-width: $mobile){
-    width: 100px;
+  @media screen and (max-width: $navbarBreakpoint){
+    width: 65px;
   }
 
   a {
@@ -25,7 +25,7 @@
     color: $mineShaft;
     padding: 10px;
 
-    @media screen and (max-width: $mobile){
+    @media screen and (max-width: $navbarBreakpoint){
       display: none;
     }
   }
