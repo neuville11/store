@@ -8,14 +8,13 @@ elements:
 ---
 
 <div class="welcome">
-  <div class="logo">
-    <%= image_tag "middleman-logo.svg" %>
+  <div class="section__wrapper">
+    <div class="logo">
+      <%= image_tag "middleman-logo.svg" %>
+    </div>
+    <h1>Middleman is Running</h1>
+      <% current_page.data.elements.each do |f| %>
+      <button class='<%= f %> btn-big' ><%= f %></button>
+      <% end %>
   </div>
-  <h1>Middleman is Running</h1>
-  <p class="doc">
-    <%= link_to "Read Documentation Online", "https://middlemanapp.com", target: "_blank" %>
-  </p><!-- .doc -->
-    <% current_page.data.elements.each do |f| %>
-    <button class='<%= f %> btn-medium' ><%= f %></button>
-    <% end %>
 </div><!-- .welcome -->

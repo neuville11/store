@@ -14,14 +14,15 @@
 @import
   "components/buttons",
   "components/logos",
-  "components/icons";
+  "components/icons",
+  "components/sections";
 /*layout*/
 @import
   "layout/main_nav";
 
 
 body {
-  background: #ecc561;
+  background: white;
   text-align: center;
   /*font-family: 'Oswald', sans-serif;*/
   font-family: 'Asap', sans-serif;
