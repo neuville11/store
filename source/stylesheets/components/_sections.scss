@@ -5,6 +5,60 @@
 
 .section__build-your-office {
   float: right;
-  height: 390px;
-  width: 50%;
+  margin-right: 20px;
+  width: auto;
+  @media screen and(max-width: $mobile){
+    float: none;
+    margin: 0 auto;
+    padding: 10px;
+  }
+}
+
+.section__build-your-office-wrap {
+  box-sizing: border-box;
+  @media screen and(min-width: $desktop){
+    height: 550px;
+  }
+
+  @media screen and(max-width: $desktop){
+    height: 390px;
+  }
+
+  @media screen and(max-width: $tablet){
+    height: 275px;
+  }
+
+  @media screen and(max-width: 320px){
+    height: 180px;
+  }
+}
+
+.section__recycle-wrap {
+  box-sizing: border-box;
+  @media screen and(min-width: $desktop){
+    height: 180px;
+  }
+
+  @media screen and(max-width: $desktop){
+    height: 128px;
+  }
+
+  @media screen and(max-width: $tablet){
+    height: 130px;
+  }
+
+  @media screen and(max-width: $mobile){
+    height: 91px;
+  }
+}
+
+.section__recycle {
+  float: left;
+  margin-left: 20px;
+  width: auto;
+  @media screen and(max-width: $mobile){
+    float: none;
+    margin: 0 auto;
+    padding: 10px;
+  }
 }

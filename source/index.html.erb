@@ -9,17 +9,19 @@ elements:
 
 <div class="welcome">
   <div class="section__wrapper">
-    <div class="background__build-your-office">
+    <div class="section__build-your-office-wrap background__build-your-office">
       <div class="section__build-your-office">
-        <h2>Build your own office</h2>
+        <h2 class="title__principal title__principal-white" id="title__build-your-office">Build your own office</h2>
+        <h3 class="title__secondary title__secondary-white">With the best brands & prices</h3>
+        <button class='btn-normal btn-big btn-hide' >See more></button>
       </div>
     </div>
-    <div class="logo">
-      <%= image_tag "middleman-logo.svg" %>
+    <div class="section__recycle-wrap background__recycle">
+      <div class="section__recycle">
+        <h3 class="title__secondary title__secondary-black">Recycle your old devices and</h3>
+        <h2 class="title__principal title__principal-black" id="title__recycle">Get 10% off</h2>
+        <h3 class="title__secondary title__secondary-black">in your next purchase</h3>
+      </div>
     </div>
-    <h1>Middleman is Running</h1>
-      <% current_page.data.elements.each do |f| %>
-      <button class='<%= f %> btn-big' ><%= f %></button>
-      <% end %>
   </div>
-</div><!-- .welcome -->
+</div>
