@@ -1,9 +1,14 @@
 .input-search {
   height: 25px !important;
+  margin-right: 16px;
   margin-top: 2px;
   width: 145px;
 
   @media screen and (max-width: $navbarBreakpoint){
     width: 85%;
+  }
+
+  @media screen and (max-width: $mobile){
+    width: 80%;
   }
 }
