@@ -1,0 +1,15 @@
+.background__build-your-office {
+  @media screen and(min-width: $desktop){
+    background: image_url('HOME_banner01_hd.png')  no-repeat;
+    height: 550px;
+    margin-bottom: 30px;
+    width: 100%;
+  }
+
+  @media screen and(max-width: $desktop){
+    background: image_url('HOME_banner01_desktop.png')  no-repeat;
+    height: 390px;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+}

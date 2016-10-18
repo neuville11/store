@@ -1,22 +1,25 @@
 ---
 title: Welcome to Middleman
 elements:
-  - one
-  - two
-  - three
+  - btn-normal
+  - btn-secondary
+  - btn-hover
+  - btn-red-border
 ---
 
 <div class="welcome">
-  <div class="logo">
-    <%= image_tag "middleman-logo.svg" %>
+  <div class="section__wrapper">
+    <div class="background__build-your-office">
+      <div class="section__build-your-office">
+        <h2>Build your own office</h2>
+      </div>
+    </div>
+    <div class="logo">
+      <%= image_tag "middleman-logo.svg" %>
+    </div>
+    <h1>Middleman is Running</h1>
+      <% current_page.data.elements.each do |f| %>
+      <button class='<%= f %> btn-big' ><%= f %></button>
+      <% end %>
   </div>
-  <h1>Middleman is Running</h1>
-  <p class="doc">
-    <%= link_to "Read Documentation Online", "https://middlemanapp.com", target: "_blank" %>
-  </p><!-- .doc -->
-  <ul>
-    <% current_page.data.elements.each do |f| %>
-    <li><%= f %></li>
-    <% end %>
-  </ul>
 </div><!-- .welcome -->

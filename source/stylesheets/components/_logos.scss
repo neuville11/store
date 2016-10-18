@@ -3,23 +3,15 @@
   border: none;
   display: inline-block;
   float: left;
-  height: 32px;
-  padding: 10px;
-  width: 150px;
+  height: 42px;
+  margin-top: 5px;
+  width: 158px;
 
   @media screen and(max-width: $navbarBreakpoint){
     background: image_url('HOME_sprite.png')  no-repeat -205px -417px;
     float: none;
-    margin-left: 40px;
-    margin-top: 7px;
-    width: 110px;
+    margin-left: 30px;
+    margin-top: 10px;
+    width: 128px;
   }
-}
-
-.shopping-bag-icon {
-  background: image_url('HOME_sprite.png')  no-repeat -70px -244px;
-  display: inline;
-  height: 32px;
-  padding: 15px;
-  width: 20px;
 }

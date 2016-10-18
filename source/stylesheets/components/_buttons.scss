@@ -1,8 +1,97 @@
 .btn-normal {
-  width: 440px;
-  height: 55px;
-  background-color: #ffffff;
-  border: solid 0.5px #b4b4b4;
+  background-color: white;
+  border: solid 0.5px $nobel;
+  color: $redOrange;
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+
+  &:hover {
+    @extend .btn-hover;
+  }
+}
+
+.btn-secondary {
+  background-color: $redOrange;
+  border: none;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+
+  &:hover {
+    @extend .btn-hover;
+  }
+}
+
+.btn-hover {
+  background-color: $nobel;
+  border: solid 2px white;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+}
+
+.btn-red-border {
+  background-color: white;
+  border: solid 1.5px $redOrange;
+  color: $redOrange;
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+
+  &:hover {
+    @extend .btn-hover;
+  }
+}
+
+.btn-big {
+  @media screen and(min-width: $desktop){
+    font-size: 33px;
+    height: 55px;
+    width: 440px;
+  }
+
+  @media screen and(max-width: $desktop){
+    font-size: 25px;
+    height: 45px;
+    width: 310px;
+  }
+
+  @media screen and(max-width: $tablet){
+    font-size: 20px;
+    height: 40px;
+    width: 195px;
+  }
+
+  @media screen and(max-width: $mobile){
+    font-size: 23px;
+    height: 40px;
+    width: 250px;
+  }
+}
+
+.btn-medium {
+  @media screen and(min-width: $desktop){
+    font-size: 33px;
+    height: 55px;
+    width: 325px;
+  }
+
+  @media screen and(max-width: $desktop){
+    font-size: 25px;
+    height: 45px;
+    width: 225px;
+  }
+
+  @media screen and(max-width: $tablet){
+    font-size: 20px;
+    height: 40px;
+    width: 145px;
+  }
+}
+
+.btn-hide {
+  @media screen and(max-width: $mobile){
+    display: none;
+  }
 }
 
 .btn-search {
@@ -11,21 +100,4 @@
   height: 32px;
   padding: 10px;
   width: 32px;
-}
-
-.burguer-icon {
-  background: image_url('HOME_sprite.png')  no-repeat -113px -421px;
-  border: none;
-  height: 30px;
-  width: 32px;
-
-  @media screen and(min-width: $navbarBreakpoint){
-    display: none;
-  }
-  @media screen and(max-width: $navbarBreakpoint){
-    display: inline-block;
-    float: left;
-    margin-left: 15px;
-    margin-top: 10px;
-  }
 }
