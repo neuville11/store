@@ -34,30 +34,33 @@
   @media screen and(min-width: $desktop){
     background: image_url('HOME_banner00_hd.png');
     background-repeat: no-repeat;
-    background-size: cover;
+    float: right;
     margin-bottom: 25px;
-    width: 100%;
+    width: 50%;
   }
 
   @media screen and(max-width: $desktop){
     background: image_url('HOME_banner00_desktop.png');
     background-repeat: no-repeat;
+    float: right;
     margin-bottom: 20px;
-    width: 100%;
+    width: 50%;
   }
 
   @media screen and(max-width: $tablet){
     background: image_url('HOME_banner00_tablet.png');
     background-repeat: no-repeat;
+    float: right;
     margin-bottom: 15px;
-    width: 100%;
+    width: 50%;
   }
 
   @media screen and(max-width: $mobile){
     background: image_url('HOME_banner00_mobile.png');
     background-repeat: no-repeat;
+    float: right;
     background-size: cover;
     margin-bottom: 10px;
-    width: 100%;
+    width: 50%;
   }
 }
