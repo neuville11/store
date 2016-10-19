@@ -101,3 +101,18 @@
   padding: 10px;
   width: 32px;
 }
+
+#btn-build-your-office {
+  @extend .btn-normal, .btn-big, .btn-hide;
+  @media screen and(min-width: $desktop){
+    margin-top: 30px;
+  }
+
+  @media screen and(max-width: $desktop){
+    margin-top: 45px;
+  }
+
+  @media screen and(max-width: $tablet){
+    margin-top: 24px;
+  }
+}
