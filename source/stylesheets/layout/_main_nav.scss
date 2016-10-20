@@ -2,6 +2,10 @@
   background-color: black;
   height: 35px;
   width: 100%;
+
+  a {
+    @extend .white-text
+  }
 }
 
 .navbar__links {
