@@ -6,23 +6,49 @@
  a {
     @extend .white-text;
   }
+
+  @media screen and(max-width: $tablet){
+    height: 220px;
+  }
 }
 
 .footer__social-container {
-  border-bottom: 1px white solid;
+  border-bottom: 2px white solid;
   height: 50px;
+
+  @media screen and(max-width: $tablet){
+    height: 100px;
+  }
 }
-/*I can refactor this*/
+
 .footer__contact {
   float: left;
 
   a {
     padding: 0 10px;
   }
+
+  @media screen and(max-width: $tablet){
+    float: none;
+    margin-bottom: 30px;
+
+    a {
+      padding: 0 4%;
+    }
+  }
 }
 
 .footer__disclaimer {
   float: left;
+
+  @media screen and(max-width: $tablet){
+    float: none;
+    margin-bottom: 20px;
+
+    label:nth-child(2) {
+      display: block;
+    }
+  }
 }
 
 .footer__social-media {
@@ -35,10 +61,25 @@
   & > * {
     padding: 0 10px;
   }
+
+  @media screen and(max-width: $tablet){
+    float: none;
+    label {
+      display: none;
+    }
+
+    div:nth-child(4) {
+      padding: 0;
+    }
+  }
 }
 
 .footer__logo-voltio {
   float: right;
+
+  @media screen and(max-width: $tablet){
+    float: none;
+  }
 }
 
 .disclaimer {

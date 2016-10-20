@@ -20,4 +20,8 @@
   background: image_url('HOME_sprite.png')  no-repeat -172px -155px;
   width: 105px;
   height: 25px;
+
+  @media screen and(max-width: $tablet){
+    margin: 0 auto;
+  }
 }
