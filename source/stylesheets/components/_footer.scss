@@ -1,0 +1,47 @@
+.footer {
+  background-color: $mineShaft;
+  height: 103px;
+  padding: 16px 26px;
+ 
+ a {
+    @extend .white-text;
+  }
+}
+
+.footer__social-container {
+  border-bottom: 1px white solid;
+  height: 50px;
+}
+/*I can refactor this*/
+.footer__contact {
+  float: left;
+}
+
+.footer__disclaimer {
+  float: left;
+}
+
+.footer__social-media {
+  float: right;
+
+  div {
+    display: inline-block;
+  }
+
+  & > * {
+    padding: 0 10px;
+  }
+}
+
+.footer__logo-voltio {
+  float: right;
+}
+
+.disclaimer {
+  @extend .white-text;
+}
+
+.footer__disclaimer-container {
+  height: 25px;
+  margin-top: 18px;
+}
