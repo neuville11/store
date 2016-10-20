@@ -16,17 +16,19 @@
   "components/logos",
   "components/icons",
   "components/sections",
-  "components/backgrounds";
+  "components/backgrounds",
+  "components/titles";
 /*layout*/
 @import
   "layout/main_nav";
+
 body
  {
   background: white;
-  text-align: center;
   font-family: 'Oswald', sans-serif;
   font-size: 1em;
-  height: 100%;
+  min-width: 320px;
+  text-align: center;
   width: 100%;
 }
 

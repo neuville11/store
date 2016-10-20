@@ -2,7 +2,7 @@
   "name": "voltio",
   "description": "",
   "scripts": {
-    "postdeploy": "ps:scale web=1"
+    "postdeploy": ""
   },
   "formation": {
     "web": {

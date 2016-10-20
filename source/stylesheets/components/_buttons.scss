@@ -2,6 +2,7 @@
   background-color: white;
   border: solid 0.5px $nobel;
   color: $redOrange;
+  display: block;
   font-family: 'Oswald', sans-serif;
   text-align: center;
 
@@ -14,6 +15,7 @@
   background-color: $redOrange;
   border: none;
   color: white;
+  display: block;
   font-family: 'Oswald', sans-serif;
   text-align: center;
 
@@ -26,6 +28,7 @@
   background-color: $nobel;
   border: solid 2px white;
   color: white;
+  display: block;
   font-family: 'Oswald', sans-serif;
   text-align: center;
 }
@@ -34,6 +37,7 @@
   background-color: white;
   border: solid 1.5px $redOrange;
   color: $redOrange;
+  display: block;
   font-family: 'Oswald', sans-serif;
   text-align: center;
 
@@ -101,3 +105,50 @@
   padding: 10px;
   width: 32px;
 }
+
+#btn-build-your-office {
+  @extend .btn-normal, .btn-big, .btn-hide;
+  @media screen and(min-width: $desktop){
+    margin: 30px auto 0;
+  }
+
+  @media screen and(max-width: $desktop){
+    margin: 45px auto 0;
+  }
+
+  @media screen and(max-width: $tablet){
+    margin: 24px auto 0;
+  }
+}
+
+#btn-smartphones {
+  @extend .btn-normal, .btn-medium, .btn-hide;
+  @media screen and(min-width: $desktop){
+    margin: 89px auto 0;
+  }
+
+  @media screen and(max-width: $desktop){
+    margin: 44px auto 0;
+  }
+
+  @media screen and(max-width: $tablet){
+    margin: 24px auto 0;
+  }
+}
+
+#btn-headphones {
+  @extend .btn-normal, .btn-medium, .btn-hide;
+  @media screen and(min-width: $desktop){
+    margin: 180px auto 0;
+  }
+
+  @media screen and(max-width: $desktop){
+    margin: 110px auto 0;
+  }
+
+  @media screen and(max-width: $tablet){
+    margin: 50px auto 0;
+  }
+}
+
+

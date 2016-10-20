@@ -9,17 +9,36 @@ elements:
 
 <div class="welcome">
   <div class="section__wrapper">
-    <div class="background__build-your-office">
+    <div class="section__build-your-office-wrap background__build-your-office">
       <div class="section__build-your-office">
-        <h2>Build your own office</h2>
+        <h2 class="title__principal title__principal-white" id="title__build-your-office">Build your own office</h2>
+        <h3 class="title__secondary title__secondary-white">With the best brands & prices</h3>
+        <a id="btn-build-your-office">See more></a>
       </div>
     </div>
-    <div class="logo">
-      <%= image_tag "middleman-logo.svg" %>
+    <div class="section__recycle">
+      <div class="section__recycle-message">
+        <h3 class="title__secondary title__secondary-black">Recycle your old devices and</h3>
+        <h2 class="title__principal title__principal-black" id="title__recycle">Get 10% off</h2>
+        <h3 class="title__secondary title__secondary-black">in your next purchase</h3>
+      </div>
+      <div class="section__recycle-wrap background__recycle"></div>
     </div>
-    <h1>Middleman is Running</h1>
-      <% current_page.data.elements.each do |f| %>
-      <button class='<%= f %> btn-big' ><%= f %></button>
-      <% end %>
+    <div class="section__smartphones-headphones-wrap">
+      <div class="section__smartphones-wrap background__smartphones">
+        <div class="section__smartphones">
+          <h2 class="title__principal title__principal-white" id="title__smartphones">Smartphones</h2>
+          <h3 class="title__secondary title__secondary-white">Connect your world</h3>
+          <a id="btn-smartphones" >See more></a>
+        </div>
+      </div>
+      <div class="section__headphones-wrap background__headphones">
+        <div class="section__headphones">
+          <h2 class="title__principal title__principal-white" id="title__headphones">Headphones</h2>
+          <h3 class="title__secondary title__secondary-white">High quality audio</h3>
+          <a id="btn-headphones" >See more></a>
+        </div>
+      </div>
+    </div>
   </div>
-</div><!-- .welcome -->
+</div>

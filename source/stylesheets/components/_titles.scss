@@ -1,0 +1,103 @@
+.title__principal {
+  border-bottom: 2px solid;
+  border-top: 2px solid;
+  font-family: 'Oswald', sans-serif;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: bold;
+  text-align: center;
+  width: auto;
+
+  @media screen and(min-width: $desktop){
+    font-size: 63px;
+  }
+
+  @media screen and(max-width: $desktop){
+    font-size: 45px;
+  }
+
+  @media screen and(max-width: $tablet){
+    font-size: 33px;
+  }
+
+  @media screen and(max-width: $mobile){
+    font-size: 28px;
+  }
+}
+
+.title__secondary {
+  font-family: 'Asap', sans-serif;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: normal;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  text-align: center;
+}
+
+.title__principal-white {
+  color: white;
+}
+
+.title__principal-black {
+  color: black;
+}
+
+.title__secondary-white {
+  color: white;
+
+  @media screen and(min-width: $desktop){
+    font-size: 28px;
+  }
+
+  @media screen and(max-width: $desktop){
+    font-size: 23px;
+  }
+
+  @media screen and(max-width: $tablet){
+    font-size: 16px;
+  }
+
+  @media screen and(max-width: $mobile){
+    font-size: 16px;
+  }
+}
+
+.title__secondary-black {
+  color: black;
+
+  @media screen and(min-width: $desktop){
+    font-size: 33px;
+  }
+
+  @media screen and(max-width: $desktop){
+    font-size: 23px;
+  }
+
+  @media screen and(max-width: $tablet){
+    font-size: 16px;
+  }
+
+  @media screen and(max-width: $mobile){
+    font-size: 10px;
+  }
+}
+
+#title__build-your-office {
+  margin: 100px auto 0;
+  @media screen and(max-width: $mobile){
+    margin: 0 auto 0;
+  }
+}
+
+#title__recycle {
+  margin: 0 auto;
+}
+
+#title__smartphones {
+  margin: 0 auto;
+}
+
+#title__headphones {
+  margin: 5px;
+}

@@ -1,15 +1,123 @@
 .background__build-your-office {
   @media screen and(min-width: $desktop){
-    background: image_url('HOME_banner01_hd.png')  no-repeat;
-    height: 550px;
+    background: image_url('HOME_banner01_hd.png');
+    background-repeat: no-repeat;
+    background-size: cover;
     margin-bottom: 30px;
     width: 100%;
   }
 
   @media screen and(max-width: $desktop){
-    background: image_url('HOME_banner01_desktop.png')  no-repeat;
-    height: 390px;
+    background: image_url('HOME_banner01_desktop.png');
+    background-repeat: no-repeat;
     margin-bottom: 20px;
+    width: 100%;
+  }
+
+  @media screen and(max-width: $tablet){
+    background: image_url('HOME_banner01_tablet.png');
+    background-repeat: no-repeat;
+    margin-bottom: 15px;
+    width: 100%;
+  }
+
+  @media screen and(max-width: $mobile){
+    background: image_url('HOME_banner01_mobile.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+}
+
+.background__recycle {
+  @media screen and(min-width: $desktop){
+    background: image_url('HOME_banner00_hd.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: right;
+    width: 50%;
+  }
+
+  @media screen and(max-width: $desktop){
+    background: image_url('HOME_banner00_desktop.png');
+    background-repeat: no-repeat;
+    float: right;
+    width: 50%;
+  }
+
+  @media screen and(max-width: $tablet){
+    background: image_url('HOME_banner00_tablet.png');
+    background-repeat: no-repeat;
+    float: right;
+    width: 50%;
+  }
+
+  @media screen and(max-width: $mobile){
+    background: image_url('HOME_banner00_mobile.png');
+    background-repeat: no-repeat;
+    float: right;
+    background-size: cover;
+    width: 50%;
+  }
+}
+
+.background__smartphones {
+  @media screen and(min-width: $desktop){
+    background: image_url('HOME_banner02_hd.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 59%;
+  }
+
+  @media screen and(max-width: $desktop){
+    background: image_url('HOME_banner02_desktop.png');
+    background-repeat: no-repeat;
+    width: 59%;
+  }
+
+  @media screen and(max-width: $tablet){
+    background: image_url('HOME_banner02_tablet.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 59%;
+  }
+
+  @media screen and(max-width: $mobile){
+    background: image_url('HOME_banner02_mobile.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+}
+
+.background__headphones {
+  @media screen and(min-width: $desktop){
+    background: image_url('HOME_banner03_hd.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 39%;
+  }
+
+  @media screen and(max-width: $desktop){
+    background: image_url('HOME_banner03_desktop.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 39%;
+  }
+
+  @media screen and(max-width: $tablet){
+    background: image_url('HOME_banner03_tablet.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 39%;
+  }
+
+  @media screen and(max-width: $mobile){
+    background: image_url('HOME_banner03_mobile.png');
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 100%;
   }
 }
