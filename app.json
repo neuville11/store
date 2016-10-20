@@ -2,7 +2,7 @@
   "name": "voltio",
   "description": "",
   "scripts": {
-    "postdeploy": "heroku restart"
+    "postdeploy": ""
   },
   "formation": {
     "web": {
