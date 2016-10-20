@@ -34,6 +34,7 @@
   @media screen and(min-width: $desktop){
     background: image_url('HOME_banner00_hd.png');
     background-repeat: no-repeat;
+    background-size: cover;
     float: right;
     width: 50%;
   }
@@ -65,19 +66,21 @@
   @media screen and(min-width: $desktop){
     background: image_url('HOME_banner02_hd.png');
     background-repeat: no-repeat;
-    width: 60%;
+    background-size: cover;
+    width: 59%;
   }
 
   @media screen and(max-width: $desktop){
     background: image_url('HOME_banner02_desktop.png');
     background-repeat: no-repeat;
-    width: 60%;
+    width: 59%;
   }
 
   @media screen and(max-width: $tablet){
     background: image_url('HOME_banner02_tablet.png');
     background-repeat: no-repeat;
-    width: 60%;
+    background-size: cover;
+    width: 59%;
   }
 
   @media screen and(max-width: $mobile){
@@ -93,20 +96,22 @@
   @media screen and(min-width: $desktop){
     background: image_url('HOME_banner03_hd.png');
     background-repeat: no-repeat;
-    width: 38%;
+    background-size: cover;
+    width: 39%;
   }
 
   @media screen and(max-width: $desktop){
     background: image_url('HOME_banner03_desktop.png');
     background-repeat: no-repeat;
-    width: 38%;
+    background-size: cover;
+    width: 39%;
   }
 
   @media screen and(max-width: $tablet){
     background: image_url('HOME_banner03_tablet.png');
     background-repeat: no-repeat;
     background-size: cover;
-    width: 38%;
+    width: 39%;
   }
 
   @media screen and(max-width: $mobile){
