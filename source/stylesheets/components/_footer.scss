@@ -15,6 +15,10 @@
 /*I can refactor this*/
 .footer__contact {
   float: left;
+
+  a {
+    padding: 0 10px;
+  }
 }
 
 .footer__disclaimer {
