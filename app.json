@@ -1,15 +1,17 @@
 {
   "name": "voltio",
-  "description": "",
-  "scripts": {
-    "postdeploy": ""
-  },
+  "description": "static e-commerce store",
   "formation": {
     "web": {
       "quantity": 1
     },
-    "buildpacks": {
-      "url": "heroku/ruby"
-    }
+    "buildpacks": [
+      {
+        "url": "https://github.com/heroku/heroku-buildpack-middleman"
+      },
+      {
+        "url": "heroku/ruby"
+      }
+    ]
   }
 }
