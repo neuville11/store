@@ -151,4 +151,8 @@
   }
 }
 
+.btn-suscribe {
+  @extend .btn-secondary, .btn-medium;
+  display: inline;
+}
 

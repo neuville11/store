@@ -181,4 +181,15 @@
 .section__newsletter {
   background-color: $mineShaft;
   height: 150px;
+  padding: 10px;
+}
+
+.section__newsletter-message {
+  display: inline-block;
+  width: 55%;
+}
+
+.section__newsletter-form {
+  display: inline-block;
+  width: 39%;
 }
