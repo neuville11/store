@@ -22,15 +22,9 @@
   @media screen and (min-width: $desktop) {
     width: 325px !important;
   }
+
   @media screen and(max-width: $desktop){
+    height: 30px !important;
     width: 225px !important;
-  }
-
-  @media screen and(max-width: $tablet){
-
-  }
-
-  @media screen and(max-width: $mobile){
-  
   }
 }
