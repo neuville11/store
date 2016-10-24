@@ -1,0 +1,92 @@
+.footer {
+  background-color: $mineShaft;
+  height: 103px;
+  padding: 16px 26px;
+ 
+ a {
+    @extend .white-text;
+  }
+
+  @media screen and(max-width: $tablet){
+    height: 220px;
+  }
+}
+
+.footer__social-container {
+  border-bottom: 2px white solid;
+  height: 50px;
+
+  @media screen and(max-width: $tablet){
+    height: 100px;
+  }
+}
+
+.footer__contact {
+  float: left;
+
+  a {
+    padding: 0 10px;
+  }
+
+  @media screen and(max-width: $tablet){
+    float: none;
+    margin-bottom: 30px;
+
+    a {
+      padding: 0 4%;
+    }
+  }
+}
+
+.footer__disclaimer {
+  float: left;
+
+  @media screen and(max-width: $tablet){
+    float: none;
+    margin-bottom: 20px;
+
+    label:nth-child(2) {
+      display: block;
+    }
+  }
+}
+
+.footer__social-media {
+  float: right;
+
+  div {
+    display: inline-block;
+  }
+
+  & > * {
+    padding: 0 10px;
+  }
+
+  @media screen and(max-width: $tablet){
+    float: none;
+    label {
+      display: none;
+    }
+
+    div:nth-child(4) {
+      padding: 0;
+    }
+  }
+}
+
+.footer__logo-voltio {
+  float: right;
+
+  @media screen and(max-width: $tablet){
+    float: none;
+  }
+}
+
+.disclaimer {
+  @extend .white-text;
+}
+
+.footer__disclaimer-container {
+  height: 25px;
+  margin-top: 18px;
+}

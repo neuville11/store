@@ -31,4 +31,21 @@
   height: 48px;
   margin: 0 auto;
   width: 55px;
+
+.icon-facebook {
+  background: image_url('HOME_sprite.png')  no-repeat -152px -344px;
+  height: 23px;
+  width: 25px;
+}
+
+.icon-twitter {
+  background: image_url('HOME_sprite.png')  no-repeat -212px -344px;
+  height: 23px;
+  width: 25px;
+}
+
+.icon-gplus {
+  background: image_url('HOME_sprite.png')  no-repeat -269px -344px;
+  height: 23px;
+  width: 25px;
 }

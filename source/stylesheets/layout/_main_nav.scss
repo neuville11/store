@@ -4,12 +4,7 @@
   width: 100%;
 
   a {
-    color: white;
-    font-family: 'Asap', sans-serif;
-    font-size: 16px;
-    font-stretch: normal;
-    font-style: normal;
-    font-weight: normal;
+    @extend .white-text
   }
 }
 
