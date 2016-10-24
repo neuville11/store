@@ -1,6 +1,8 @@
 {
   "name": "voltio",
   "description": "static e-commerce store",
+  "scripts": {
+  },
   "formation": {
     "web": {
       "quantity": 1
