@@ -155,20 +155,20 @@
   display: inline;
 
   @media screen and(min-width: $desktop){
-
+    height: 55px;
+    width: 440px;
   }
 
   @media screen and(max-width: $desktop){
-
+    height: 45px;
+    width: 240px;
   }
 
   @media screen and(max-width: $tablet){
-
-  }
-
-  @media screen and(max-width: $mobile){
+    display: block;
     height: 40px;
-    width: 253px;
+    margin: 0 auto;
+    width: 100%;
   }
 
 }

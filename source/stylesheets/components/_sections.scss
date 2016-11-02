@@ -180,12 +180,12 @@
 
 .section__newsletter {
   background-color: $mineShaft;
-  height: 150px;
+  height: 165px;
   padding: 10px;
   margin-bottom: 10px;
   
   @media screen and(max-width: $tablet){
-    height: 165px;
+    height: 240px;
   }
 }
 
