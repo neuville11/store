@@ -28,7 +28,6 @@
   background-color: $nobel;
   border: solid 2px white;
   color: white;
-  display: block;
   font-family: 'Oswald', sans-serif;
   text-align: center;
 }
@@ -149,6 +148,29 @@
   @media screen and(max-width: $tablet){
     margin: 50px auto 0;
   }
+}
+
+.btn-suscribe {
+  @extend .btn-secondary;
+  display: inline;
+
+  @media screen and(min-width: $desktop){
+    height: 55px;
+    width: 440px;
+  }
+
+  @media screen and(max-width: $desktop){
+    height: 45px;
+    width: 240px;
+  }
+
+  @media screen and(max-width: $tablet){
+    display: block;
+    height: 40px;
+    margin: 0 auto;
+    width: 100%;
+  }
+
 }
 
 

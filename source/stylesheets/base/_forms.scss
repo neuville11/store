@@ -12,3 +12,23 @@
     width: 80%;
   }
 }
+
+.input-text-newsletter {
+  border: 0;
+  height: 45px !important;
+  margin-bottom: 10px;
+  padding: 0;
+
+    @media screen and(min-width: $desktop){
+    width: 440px !important;
+  }
+
+  @media screen and(max-width: $desktop){
+    width: 240px !important;
+  }
+
+  @media screen and(max-width: $tablet){
+    width: 100% !important;
+  }
+
+}

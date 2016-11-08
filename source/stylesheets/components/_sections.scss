@@ -177,3 +177,34 @@
     float: right;
   }
 }
+
+.section__newsletter {
+  background-color: $mineShaft;
+  height: 165px;
+  padding: 10px;
+  margin-bottom: 10px;
+  
+  @media screen and(max-width: $tablet){
+    height: 240px;
+  }
+}
+
+.section__newsletter-message {
+  display: inline-block;
+  width: 55%;
+  
+  @media screen and(max-width: $tablet){
+    display: block;
+    width: 100%;
+  }
+}
+
+.section__newsletter-form {
+  display: inline-block;
+  width: 39%;
+
+  @media screen and(max-width: $tablet){
+    display: block;
+    width: 100%;
+  }
+}
