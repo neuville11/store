@@ -102,6 +102,10 @@
   margin: 5px;
 }
 
+#title__featured-products {
+  @extend .title__principal, .title__principal-black;
+}
+
 .big-white-text {
   font-family: 'Asap', sans-serif;
   font-weight: normal;
