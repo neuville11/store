@@ -103,7 +103,15 @@
 }
 
 #title__featured-products {
-  @extend .title__principal, .title__principal-black;
+  border-bottom: 2px solid;
+  color: $mineShaft;
+  font-family: Oswald;
+  font-size: 45px;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: normal;
+  text-align: left;
+  width: 400px;
 }
 
 .big-white-text {
@@ -128,3 +136,26 @@
   font-style: normal;
   font-weight: normal;
 }
+
+.title__product-description {
+  @extend .title__principal;
+    color: white;
+    border-top: none;
+    border-bottom: 2px solid white;
+    font-size: 33px;
+    margin: 0 10px;
+
+  @media screen and (max-width: $desktop) {
+    font-size: 24px;
+  }
+}
+
+.title__product-price {
+  @extend .title__principal;
+    color: white;
+    border-bottom: none;
+    border-top: none;
+    font-size: 38px;
+    margin: 0;
+}
+
