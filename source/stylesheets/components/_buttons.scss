@@ -156,7 +156,7 @@
 
   @media screen and(min-width: $desktop){
     height: 55px;
-    width: 440px;
+    width: 400px;
   }
 
   @media screen and(max-width: $desktop){
@@ -171,6 +171,16 @@
     width: 100%;
   }
 
+}
+
+.see-details {
+  background-color: $redOrange;
+  border: none;
+  color: white;
+  font-size: 33px;
+  height: 55px;
+  margin: 0;
+  width: 100%
 }
 
 
